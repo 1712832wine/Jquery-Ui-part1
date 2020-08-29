@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/Test.css" />
+    <link rel="stylesheet" href="/javascript/jquery-ui-1.12.1/jquery-ui.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" />
+
+    <script src="/javascript/jquery-3.5.1.min.js"></script>
+    <script src="/javascript/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="/javascript/my-style.js"></script>
+</head>
+
+<body>
+    <!--DIALOG-->
+    <button id="open-dialog" title="Click to show dialog">Show Dialog</button>
+    <br>
+    <div id="my-dialog">Nội dung</div>
+    <br>
+
+    <!--PROGRESSBAR-->
+    <button id="start-progressbar" title="Click to begin progressbar">
+        Begin progressbar
+    </button>
+    <br><br>
+    <div id="value">Đang chờ bắt đầu</div>
+    <div id="my-pro">
+    </div>
+    <br>
+
+    <!--DATEPICKER-->
+    <label id="tooltip" for="datepicker" title="Chọn ngày sinh của bạn">Ngày sinh:
+    </label>
+    <input type="text" id="datepicker" />
+    <br>
+    <br>
+    <!--ACCORDION-->
+    <label for="acc">Accordion</label>
+    <div id="acc">
+        <h3>Tab 1</h3>
+        <div>Nội dung 1</div>
+        <h3>Tab 2</h3>
+        <div>Nội dung 2</div>
+        <h3>Tab 3</h3>
+        <div>Nội dung 3</div>
+    </div>
+    <br>
+    <!--AUTOCOMPLETE-->
+    <label for="autocomplete" title="Nhập 'khối'">Autocomplete:</label>
+    <input type="text" id="autocomplete" title="Nhập 'khối' " />
+    <br>
+    <br>
+    <!--MENU-->
+    <label for="menu ">Menu:</label>
+    <ul id="menu">
+        <li>
+            <div>A</div>
+            <ul>
+                <li>
+                    <div>A1</div>
+                </li>
+                <li>
+                    <div>A2</div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div>B</div>
+        </li>
+        <li>
+            <div>C</div>
+        </li>
+    </ul>
+    <br>
+    <!--TAB-->
+    <label>Tab:</label>
+    <div id="tab">
+        <ul>
+            <li><a href="#tab1">Tab 1</a></li>
+            <li><a href="#tab2"> Tab 2</a></li>
+            <li><a href="#tab3">Tab 3</a></li>
+        </ul>
+        <div id="tab1">Nội dung tab 1</div>
+        <div id="tab2">Nội dung tab 2</div>
+        <div id="tab3">Nội dung tab 3</div>
+    </div>
+    <br>
+    <!--SPINNER-->
+    <label for="spinner">Spinner: </label>
+    <input type="text" id="spinner" value="0" />
+    <button id="spinner-getvalue">Get value of spinner</button>
+    <button id="spinner-setvalue">Set value of spinner</button>
+    <button id="spinner-setto0">Set value to 0</button>
+    <br><br>
+    <!--SLIDER-->
+    <label for="slider">Slider: </label>
+    <p>Giá trị hiện tại: </p>
+
+    <div id="slider"></div>
+
+    <br><br>
+    <!--SELECT-->
+    <label for="select">Select:</label>
+    <select name="Tên" id="select">
+        <option value="1">Nguyễn Tuyền</option>
+        <option value="2">Kim Ngọc</option>
+        <option value="3">Trí Nguyễn</option>
+    </select>
+</body>
+
+</html>

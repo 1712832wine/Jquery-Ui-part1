@@ -1,0 +1,37 @@
+* {
+    font-size: 18px;
+}
+
+#my-pro {
+    width: 200px;
+}
+
+#acc {
+    width: 200px;
+}
+
+#menu {
+    width: 200px;
+}
+
+#tab {
+    width: 100%;
+}
+
+#spinner {
+    width: 200px;
+    height: 18px;
+}
+
+#slider {
+    display: inline-flex;
+    width: 300px;
+    height: 12px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+label {
+    display: inline-flex;
+}
